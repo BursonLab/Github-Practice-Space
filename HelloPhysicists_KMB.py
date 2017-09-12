@@ -4,7 +4,7 @@ print("Hello Physicists!")
 
 name = input("What is you name? ")
 age = input("How old are you ?")
-for _ in range age:
+for _ in range(age):
     print(name)
 
 x = 1
