@@ -3,8 +3,8 @@
 print("Hello Physicists!")
 
 name = input("What is you name? ")
-age = input("How old are you ?")
-for _ in range age:
+age = int(input("How old are you? "))
+for _ in range(age):
     print(name)
 
 x = 1
@@ -16,6 +16,7 @@ else:
     
 print("See you Monday.")
 
+print("Hello from Ryan")
 print("this is my new change.")
 
 print("Is this working???")
